@@ -1,0 +1,13 @@
+.traslate:hover{
+   transform: translateY(-10px);
+   cursor: pointer;
+}
+.traslate{
+    transition: all 2s;
+}
+.rotate{
+    transition: all 2s;
+    &:hover{
+        transform: rotate(360deg);
+    }
+}
